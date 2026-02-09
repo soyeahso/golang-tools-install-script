@@ -2,7 +2,7 @@
 # shellcheck disable=SC2016
 set -e
 
-FALLBACK_VERSION="1.24.4"
+FALLBACK_VERSION="1.25.7"
 VERSION="$FALLBACK_VERSION"
 
 [ -z "$GOROOT" ] && GOROOT="$HOME/.go"
